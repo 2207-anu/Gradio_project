@@ -4,7 +4,7 @@ import os
 
 # === API Configuration ===
 # ✅ Use the actual API key directly or read from environment variable
-GEMINI_API_KEY = "AIzaSyAWL6HGeNhgDyCTFfl2_hhTGCptnXT0EHM"  # Or use os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = ""  # Or use os.getenv("GEMINI_API_KEY")
 
 # ✅ Configure the Gemini API client
 genai.configure(api_key=GEMINI_API_KEY)
